@@ -9,7 +9,7 @@ const typeText = (text) => {
   const charArray = text.split("");
   greetingsTextElement.innerHTML = "";
   charArray.forEach((char, i) =>
-    setTimeout(() => (greetingsTextElement.innerHTML += char), i * 35)
+    setTimeout(() => (greetingsTextElement.innerHTML += char), i * 25)
   );
 };
 
